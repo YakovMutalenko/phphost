@@ -18,6 +18,11 @@
       prompt: "Domain name"
       private: no
 
+    - name: "address"
+      prompt: "IP address of the virtual host"
+      default: "*"
+      private: no
+
     - name: "user"
       prompt: "System user"
       private: no
